@@ -21,6 +21,9 @@ public class Principal {
                 case 3:
                     AppFactorial.inicio();
                     break;
+                case 4:
+                    AppFibonacci.inicio();
+                    break;
                 case 0:
                     System.out.println("Hasta luego");
                     break;
@@ -36,8 +39,9 @@ public class Principal {
         System.out.println();
         System.out.println("Menu Principal");
         System.out.println("1.Imprimir n numeros naturales");
-        System.out.println("2.Calcular factorial de n");
-        System.out.println("3.Calcular numero de fibonacci");
+        System.out.println("2.Dibujar pared");
+        System.out.println("3.Calcular factorial de n");
+        System.out.println("4.Calcular numero de fibonacci");
         System.out.println();
         System.out.println("0.Salir");
         System.out.println("Seleccionje la opcion deseada");
