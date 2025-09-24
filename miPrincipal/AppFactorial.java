@@ -2,7 +2,7 @@ package miPrincipal;
 import java.util.Scanner;
 import java.math.BigInteger;
 public class AppFactorial {
-    public static void main(String[] args) {
+    public static void inicio() {
         Scanner sc = new Scanner(System.in);
 
         int n;
@@ -26,7 +26,7 @@ public class AppFactorial {
     private static BigInteger factorial_ite(int n){
         BigInteger fact = BigInteger.ONE;
         for(int i = n; i>1; i--)
-            fact = fact.multiply(BigInteger.valueOf(1));
+            fact = fact.multiply(BigInteger.valueOf(i));
         return fact;
     }
     private static BigInteger factorial_rec(int n){
@@ -34,4 +34,5 @@ public class AppFactorial {
             return BigInteger.ONE;
         else
             return BigInteger.valueOf(n).multiply(factorial_rec(n-1));
+    }
 }

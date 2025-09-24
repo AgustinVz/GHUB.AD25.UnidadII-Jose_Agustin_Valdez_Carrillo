@@ -19,7 +19,7 @@ public class Principal {
                     AppPared.inicio();
                     break;
                 case 3:
-                    
+                    AppFactorial.inicio();
                     break;
                 case 0:
                     System.out.println("Hasta luego");
